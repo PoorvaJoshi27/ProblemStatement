@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewBag.Title = "Index1";
+}
+
+<h2>Index1</h2>
+
+<div>
+    <input type="submit" value="Display" class="btn btn-primary" onclick="location.href='@Url.Action("Display","Home")'" /> <br /><br />
+    <a href="@Url.Action("ExportToExcel","Home")">Export Excel</a>
+</div>
+
